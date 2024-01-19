@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Check if the script is running in Docker
 if [ -f "/.dockerenv" ]; then
     # Add or update entries in /etc/hosts
